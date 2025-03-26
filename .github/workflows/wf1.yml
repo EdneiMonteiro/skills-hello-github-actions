@@ -7,4 +7,6 @@ jobs:
   demo:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "env-var: $GITHUB_REF"
+      - name: Print GitHub Reference
+        run: echo "env-var: $GITHUB_REF"
+
