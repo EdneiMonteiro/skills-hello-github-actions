@@ -7,5 +7,5 @@ jobs:
   demo:
     runs-on: ubuntu-latest
     steps:
-      - name: Run a one-line script
-        run: echo Hello, world!
+      name: "step 1"
+      run: echo "env-var: $GITHUB_REF"
