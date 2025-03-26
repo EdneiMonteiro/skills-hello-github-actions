@@ -7,4 +7,4 @@ jobs:
   demo:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "GITHUB_REF is ${{ github.ref }}"
+      - run: echo "GITHUB_REF is $GITHUB_REF"
