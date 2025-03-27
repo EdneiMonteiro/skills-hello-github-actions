@@ -10,3 +10,4 @@ jobs:
       - run: echo "Hello, $name"
         env:
           name: "Ednei"
+      - run: npm install -g bats
