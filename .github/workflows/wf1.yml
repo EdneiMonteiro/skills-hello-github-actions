@@ -11,3 +11,5 @@ jobs:
         env:
           name: "Ednei"
       - run: npm install bats
+      - run: ./.github/scripts/script.sh
+        shell: bash
