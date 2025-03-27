@@ -7,4 +7,6 @@ jobs:
   demo:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "GITHUB_REF is $GITHUB_REF"
+      - run: echo "Hello, $name"
+        env:
+          name: "Ednei"
